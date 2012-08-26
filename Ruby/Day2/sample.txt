@@ -1,0 +1,5 @@
+You should learn a programming language every year, as recommended by The Pragmatic Programmer. 
+But if one per year is good, how about Seven Languages in Seven Weeks? 
+In this book you値l get a hands-on tour of Clojure, Haskell, Io, Prolog, Scala, Erlang, and Ruby. 
+Whether or not your favorite language is on that list, you値l broaden your perspective of programming by examining these languages side-by-side. 
+You値l learn something new from each, and best of all, you値l learn how to learn a language quickly.
