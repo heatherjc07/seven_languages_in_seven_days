@@ -1,0 +1,12 @@
+Some Io example problems
+
+http://www.iolanguage.com/about/samplecode/
+
+An Io community that will answer questions
+
+http://tech.groups.yahoo.com/group/iolanguage/
+http://stackoverflow.com/questions/tagged/iolanguage
+
+A style guide with Io idioms
+
+http://en.wikibooks.org/wiki/Io_Programming/Io_Style_Guide
