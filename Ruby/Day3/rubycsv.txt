@@ -1,0 +1,4 @@
+Forename, Surname, Sex, StaffNo
+Heather, Campbell, F, 11111
+Peter, Jackson, M 22222
+Louise, Hamilton, F, 12345
