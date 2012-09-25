@@ -15,4 +15,4 @@
        different(Georgia, Tennessee). 
 % ?-colouring(Alabama, Mississippi, Georgia, Tennessee, Florida). 
 % returns Alabama = blue, Mississippi = Georgia, Georgia = red, Tennessee = Florida, Florida = green .
-% type ; for more combinations e.g. Alabama = green,Mississippi = Georgia, Georgia = red,Tennessee = Florida, Florida = blu
+% type ; for more combinations e.g. Alabama = green,Mississippi = Georgia, Georgia = red,Tennessee = Florida, Florida = blue
