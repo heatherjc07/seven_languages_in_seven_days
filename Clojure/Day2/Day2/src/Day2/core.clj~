@@ -41,13 +41,16 @@
 
 (def products {pen 1, pencil 5})
 
+(defn product-string [products] 
+ (apply str(doall (for [[k v] products] (str v " "(:name k) " @ " (:price k) " pence\n"))))
+)
  
 (defrecord PurchaseOrder [date customer products]
  Fulfillment
  (invoice [this]
- (format "Invoice for %s \nDate %s" customer date))
+ (str (format "Invoice for %s \nDate %s" customer date) "\n" (product-string products)))
  (manifest [this]
- (str "Shipping to " customer)))
+ (str "Shipping to " customer )))
  
 (def po (PurchaseOrder. (current-time)
  "Heather Campbell"
@@ -59,10 +62,6 @@
 (println (invoice po))
 (println (manifest po))
 
-(defn format-products [products]
-   (println Product \tQuantity)
-)
-(format-products products)
 
 
 
