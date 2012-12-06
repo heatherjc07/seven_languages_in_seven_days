@@ -50,7 +50,7 @@
  (invoice [this]
  (str (format "Invoice for %s \nDate %s" customer date) "\n" (product-string products)))
  (manifest [this]
- (str "Shipping to " customer )))
+ (str "Shipping to " customer "\n" (product-string products))))
  
 (def po (PurchaseOrder. (current-time)
  "Heather Campbell"
